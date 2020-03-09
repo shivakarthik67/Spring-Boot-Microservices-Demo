@@ -12,7 +12,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://104.155.169.205:1111/eureka/
+      defaultZone: http://35.226.247.41:1111/eureka/
   instance: 
     preferIpAddress: true
 

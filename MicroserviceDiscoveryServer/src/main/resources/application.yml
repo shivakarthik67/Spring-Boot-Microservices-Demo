@@ -1,7 +1,7 @@
 # Configure this Discovery Server
 eureka:
   instance:
-    hostname: 104.155.169.205
+    hostname: 35.226.247.41
   client: 
     registerWithEureka: false
     fetchRegistry: false

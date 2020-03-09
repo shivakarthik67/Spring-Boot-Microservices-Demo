@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eureka-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      tier: discovery
+  template:
+    metadata:
+      labels:
+        tier: discovery
+    spec:
+      containers:
+      - name: eureka
+        image: gcr.io/extreme-torch-268218/eureka:v5
+        ports:
+          - name: http
+            containerPort: 1111
