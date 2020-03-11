@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: eureka
-        image: gcr.io/extreme-torch-268218/eureka:v5
+        image: gcr.io/extreme-torch-268218/eureka:v6
         ports:
           - name: http
             containerPort: 1111

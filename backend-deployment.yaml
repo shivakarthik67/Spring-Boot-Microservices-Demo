@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: gcr.io/extreme-torch-268218/producer:v6
+        image: gcr.io/extreme-torch-268218/producer:v8
         ports:
           - name: http
             containerPort: 2222

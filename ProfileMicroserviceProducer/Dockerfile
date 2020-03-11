@@ -8,4 +8,4 @@ RUN git clone https://github.com/ragasindhun/Spring-Boot-Microservices-Demo.git
 WORKDIR /Spring-Boot-Microservices-Demo/ProfileMicroserviceProducer
 RUN ls
 RUN mvn clean install
-ENTRYPOINT ["java", "-jar", "target/ProfileMicroservicProducer-1.0.0.jar"]
+ENTRYPOINT ["java", "-jar", "target/ProfileMicroserviceProducer-1.0.0.jar"]

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/extreme-torch-268218/pconsumer:v15
+        image: gcr.io/extreme-torch-268218/pconsumer:v16
         ports:
           - name: http
             containerPort: 8080

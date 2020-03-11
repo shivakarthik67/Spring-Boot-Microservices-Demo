@@ -6,11 +6,11 @@ metadata:
 spec:
   endpointSelector:
     matchLabels:
-      class: producer
+      tier: backend
   ingress:
   - fromEndpoints:
     - matchLabels:
-        class: consumer
+        tier: frontend
     toPorts:
     - ports:
       - port: "2222"
