@@ -8,7 +8,7 @@ pipeline {
        }
        stage("Apply Cilium Network Policies to GKE Cluster") {
             steps {
-               
+                echo "started" 
             }
        }
    }
