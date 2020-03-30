@@ -72,7 +72,8 @@ spec:
             - name: "APPMESH_APP_PORTS"
               value: "2222"
             - name: "APPMESH_EGRESS_IGNORED_IP"
-              value: "169.254.169.254"      
+              value: "169.254.169.254"   
+#eureka                     
 ---
 apiVersion: v1
 kind: Service
@@ -148,6 +149,7 @@ spec:
               value: "1111"
             - name: "APPMESH_EGRESS_IGNORED_IP"
               value: "169.254.169.254"
+#frontend              
 ---
 apiVersion: v1
 kind: Service
