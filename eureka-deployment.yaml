@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: eureka
-        image: gcr.io/extreme-torch-268218/eureka:v6
+        image: 777953799388.dkr.ecr.ap-northeast-1.amazonaws.com/eks-repo:latest
         ports:
           - name: http
             containerPort: 1111
