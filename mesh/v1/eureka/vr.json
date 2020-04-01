@@ -1,0 +1,16 @@
+{
+  "meshName": "apps",
+
+  "virtualRouterName": "eureka-vr",
+
+  "spec": {
+    "listeners": [
+      {
+        "portMapping": {
+          "port": 1111,
+          "protocol": "http"
+        }
+    }
+    ]
+  }
+}

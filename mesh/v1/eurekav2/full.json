@@ -1,0 +1,23 @@
+{
+    "meshName": "apps",
+
+    "virtualRouterName": "eureka-vr",
+
+    "routeName": "eureka-r",
+
+    "spec": {
+        "httpRoute": {
+            "action": {
+                "weightedTargets": [
+                    {
+                        "virtualNode": "eurekav2-vn",
+                        "weight": 100
+          }
+        ]
+            },
+            "match": {
+                "prefix": "/"
+            }
+        }
+    }
+}

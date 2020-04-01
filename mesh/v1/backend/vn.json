@@ -1,0 +1,23 @@
+{
+  "meshName": "apps",
+
+  "virtualNodeName": "backend-vn",
+
+  "spec": {
+    "listeners": [
+      {
+        "portMapping": {
+          "port": 2222,
+          "protocol": "http"
+        }
+      }
+    ],
+
+    "serviceDiscovery": {
+      "dns": {
+        "hostname": "backend.apps.local"
+      }
+
+    }
+  }
+}

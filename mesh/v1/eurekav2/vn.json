@@ -1,0 +1,25 @@
+
+{
+  "meshName": "apps",
+
+  "virtualNodeName": "eurekav2-vn",
+
+  "spec": {
+    "listeners": [
+      {
+        "portMapping": {
+          "port": 1111,
+          "protocol": "http"
+        }
+      }
+    ],
+
+    "serviceDiscovery": {
+      "dns": {
+        "hostname": "eurekav2.apps.local"
+      }
+
+    }
+  }
+}
+

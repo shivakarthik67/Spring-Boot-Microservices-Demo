@@ -1,0 +1,25 @@
+
+{
+  "meshName": "apps",
+
+  "virtualNodeName": "eureka-vn",
+
+  "spec": {
+    "listeners": [
+      {
+        "portMapping": {
+          "port": 1111,
+          "protocol": "http"
+        }
+      }
+    ],
+
+    "serviceDiscovery": {
+      "dns": {
+        "hostname": "eureka.apps.local"
+      }
+
+    }
+  }
+}
+

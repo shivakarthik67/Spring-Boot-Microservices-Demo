@@ -1,0 +1,11 @@
+{
+    "spec": {
+        "provider": {
+            "virtualRouter": {
+                "virtualRouterName": "eureka-vr"
+            }
+        }
+    },
+    "virtualServiceName": "eureka.apps.local"
+}
+

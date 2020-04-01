@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/extreme-torch-268218/pconsumer:v16
+        image: 777953799388.dkr.ecr.ap-northeast-1.amazonaws.com/consumer-repo
         ports:
           - name: http
             containerPort: 8080
